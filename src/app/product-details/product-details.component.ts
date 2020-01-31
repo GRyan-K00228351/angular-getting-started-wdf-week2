@@ -9,8 +9,8 @@ import { products } from '../products';
   styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent implements OnInit {
- product;
-  constructor(
+ public product:any; //decalring a public variable of type any
+  constructor( 
     private route: ActivatedRoute,
   ) { }
 
