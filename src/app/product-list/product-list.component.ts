@@ -9,7 +9,7 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   message:String = "Hello, Salut";
-  products = products;
+  shopProducts = products;
 
   share() {
     window.alert('The product has been shared!');

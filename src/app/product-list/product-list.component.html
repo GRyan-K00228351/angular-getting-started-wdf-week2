@@ -4,7 +4,7 @@
     {{ message }}
 </p>
 
-<div *ngFor="let product of products; index as productId">
+<div *ngFor="let product of shopProducts; index as productId">
 
   <h3>
     <a [title]="product.name + ' details'" [routerLink]="['/products', productId]">
